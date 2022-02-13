@@ -1,4 +1,5 @@
 .sec1 {
+    padding-left: 11.25%;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
@@ -8,17 +9,23 @@
 .yw{
     font-family: 'Nunito', sans-serif;
     color:#FDC435;
-    padding-left: 11.25%;
     z-index: 1;
 }
 
 .txt{
-    padding-left: 11.25%;
     font-family: 'Roboto', sans-serif;
     font-size: 3rem;
     padding-top: 1%;
     z-index: 1;
 }
+
+.information{
+    padding-top: 2%;
+    width: 42%;
+    z-index: 1;
+}
+
+
 
 .img1{
     margin-left: 55%;
@@ -39,8 +46,6 @@
 
 .text{
     font-family: 'Nunito', sans-serif;
-    padding-left: 11.25%;
-    padding-top: 2%;
     color: #828282;
     font-size: 1.5rem;
     z-index: 1;
@@ -49,7 +54,6 @@
     z-index: 1;
 }
 .button1{
-    margin-left: 11.25%;
     border-radius: 9px;
     text-align: center;
     text-decoration: none;
@@ -93,13 +97,59 @@
     .img2{
        display: block;
     }
+    .information{
+        width: 90%;
+    }
+    .img3 {
+        display: none;
+      }
+    .info2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        opacity: 100%;
+        width: 100%;
+        height: 100%;
+        background-image: url("https://cdn.discordapp.com/attachments/941091409509896283/942240977341534288/Rectangle_7_1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 24px;
+    }
+    .photo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-color: rgb(255, 255, 255,0.65);
+        width: 100%;
+        height: 100%;
+        border-radius: 24px;
+    }
+    .pname2{
+        padding-left: 5%;
+    }
+    .para2{
+        padding-left: 5%;
+        margin-top: 10%;
+    }
+    .backbox2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .photo:hover{
+        background-color: rgba(224, 224, 224, 0.5);
+    }
   }
+
 
 .projects{
     display: flex;
     flex-direction: column;
     margin-top: 350px;
-    height: 300px;
     width: 100%;
 }
 .box{
@@ -142,6 +192,9 @@
     border-radius: 24px;
     height: 100%;
 }
+.photo{
+
+}
 
 .info{
     padding-left: 3%;
@@ -178,7 +231,7 @@
     display: flex;
     background-color: rgb(255, 255, 255);
     margin-top: 100px;
-    height: 650px;
+    height: 540px;
     width: 90%;
     justify-content: space-between;
     align-items: center;
@@ -186,9 +239,10 @@
     border-radius: 24px;
 }
 .para2{
-    width: 50%;
+    width: 90%;
+    padding-left: 5%;
     font-family: 'Nunito', sans-serif;
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     color: #828282;
 }
 .img4{
@@ -198,12 +252,13 @@
 }
 
 .info2{
-    padding-left: 3%;
+    
 }
 
 .pname2{
     font-size: 2.5rem;
     font-family: 'Playfair Display', serif;
+    padding-left: 5%;
 }
 
 .button4{
@@ -224,60 +279,6 @@
 }
 
 .button4:hover{
-    background-color: #e7e7e7;
-    z-index: 1;
-}
-
-.backbox3{
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    margin-top: 100px;
-    height: 650px;
-    width: 90%;
-    justify-content: space-between;
-    align-items: center;
-    filter: drop-shadow(0px 6px 64px rgba(112, 144, 176, 0.1));
-    border-radius: 24px;
-}
-.para3{
-    width: 50%;
-    font-family: 'Nunito', sans-serif;
-    font-size: 1.125rem;
-    color: #828282;
-}
-.img5{
-    left: 0;
-    border-radius: 24px;
-    height: 100%;
-}
-
-.info3{
-    padding-left: 3%;
-}
-
-.pname3{
-    font-size: 2.5rem;
-    font-family: 'Playfair Display', serif;
-}
-
-.button5{
-    margin-left: 3%;
-    border-radius: 24px;
-    text-align: center;
-    text-decoration: none;
-    border: 2px solid black;
-    background-color: transparent;
-    height: 40px;
-    width: 200px;
-    margin-top: 2%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.125rem;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    z-index: 5;
-}
-
-.button5:hover{
     background-color: #e7e7e7;
     z-index: 1;
 }
